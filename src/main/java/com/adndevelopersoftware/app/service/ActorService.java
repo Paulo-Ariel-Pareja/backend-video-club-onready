@@ -7,7 +7,7 @@ import com.adndevelopersoftware.app.entity.Actor;
  * @version 18.01.2019
  */
 
-public interface IActorService {
+public interface ActorService {
 			
 	/**
 	 * Busca al actor en la base de datos por nombre y apellido 

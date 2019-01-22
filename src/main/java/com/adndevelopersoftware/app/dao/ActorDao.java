@@ -4,11 +4,11 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.adndevelopersoftware.app.entity.Actor;
 
-/* Interface IActorDao, es quien manipula la base de datos de Actor
+/* Interface ActorDao, es quien manipula la base de datos de Actor
  * @author Paulo Ariel Pareja
  * @version 18.01.2019
  */
-public interface IActorDao extends JpaRepository<Actor, Long>{
+public interface ActorDao extends JpaRepository<Actor, Long>{
 
 	/**
 	 * Busca al actor en la base de datos por nombre y apellido 
